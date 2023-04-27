@@ -110,11 +110,7 @@ async def on_ready():
         {Fore.LIGHTBLUE_EX}https://discord.com/api/oauth2/authorize?client_id={client.user.id}&scope=applications.commands%20bot{Fore.RESET}
     """), end="\n\n")
 
-@client.tree.command()
-async def ip(interaction: Interaction):
-    """ Finde die Server Ip heraus. """
-    # Then responds in the channel with this message
-    await interaction.response.send_message(content="Die IP ist AlmarsNetwork.ddns.net", ephemeral=True)
+
 
 @client.tree.command()
 async def hallo(interaction: Interaction):
