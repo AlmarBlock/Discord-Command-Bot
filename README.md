@@ -27,3 +27,5 @@ Bei Linux musst du einfach die beiligende __**start_linux.sh**__ ausführen, ent
 ## Den Bot auf den Server bekommen
 Nun wo der Bot gestartet ist, musst du den Bot-Tocken von vorhin per Rechtsklick im Terminal einfügen. Wenn alles richtig gelaufen ist, sollte der Botnach ein paar sekunden ein Link im Terminal augeben. Diesen musst du dir Kopiern, indem du in einfach mit der Maus auswählst. Anschlißend, gibst du ihn in deinem Browser ein. Dort musst du den Server auswählen, wo der Bot drauf Joinen soll.
 ![Opera Momentaufnahme_2023-05-07_221244_discord com](https://user-images.githubusercontent.com/98546933/236700609-664a8180-1804-4e77-b5c6-c4c5b8849d2e.png)
+
+# Rest kommt bald, bitte habe etwas gedult, oder tüftle selber etwas mit dem Bot gerum.
