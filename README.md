@@ -19,4 +19,7 @@ Danach kannst du den Tab wieder schißen.
 ### Jetzt kommt es daruf an, ob du den Bot auf Windows oder Linux laufen haben willst.
 
 ### **Windows**
-Bei Windows musst du einfach ein doppelklick auf die bei liegende 
+Bei Windows musst du einfach ein doppelklick auf die bei liegende __**start_windows.bat**__ machen, un der Bot solte starten.
+
+### **Linux**
+Bei Linux musst du einfach die beiligende 
