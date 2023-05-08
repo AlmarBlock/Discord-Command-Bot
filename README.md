@@ -16,7 +16,7 @@ Um deinen Bot-Tocken zu bekommen, drücke den Knopf: __"Reset Token"__. Dann erh
 ![Opera Momentaufnahme_2023-05-07_215112_discord com](https://user-images.githubusercontent.com/98546933/236699883-4d0664ff-47ec-4287-94de-d7ed08470fd5.png)
 
 Danach kannst du den Tab wieder schißen.
-### Jetzt kommt es daruf an, ob du den Bot auf Windows oder Linux laufen haben willst.
+## __Jetzt kommt es daruf an, ob du den Bot auf Windows oder Linux laufen haben willst.__
 
 ### **Windows**
 Bei Windows musst du einfach ein doppelklick auf die bei liegende __**start_windows.bat**__ machen, un der Bot solte starten.
@@ -27,5 +27,42 @@ Bei Linux musst du einfach die beiligende __**start_linux.sh**__ ausführen, ent
 ## Den Bot auf den Server bekommen
 Nun wo der Bot gestartet ist, musst du den Bot-Tocken von vorhin per Rechtsklick im Terminal einfügen. Wenn alles richtig gelaufen ist, sollte der Botnach ein paar sekunden ein Link im Terminal augeben. Diesen musst du dir Kopiern, indem du in einfach mit der Maus auswählst. Anschlißend, gibst du ihn in deinem Browser ein. Dort musst du den Server auswählen, wo der Bot drauf Joinen soll.
 ![Opera Momentaufnahme_2023-05-07_221244_discord com](https://user-images.githubusercontent.com/98546933/236700609-664a8180-1804-4e77-b5c6-c4c5b8849d2e.png)
+
+Und dan auf __"Autorisieren"__ klicken.
+
+![Opera Momentaufnahme_2023-05-08_213358_discord com](https://user-images.githubusercontent.com/98546933/236917157-99c67d3f-9cfc-4d47-ae54-40dba7198454.png)
+
+Nun ist der Bot auf deinem Server, und du kannst mit ```/test``` testen ob der Bot funktionirt.
+
+![Opera Momentaufnahme_2023-05-08_214454_discord com](https://user-images.githubusercontent.com/98546933/236920382-8e507f3a-8280-4001-b860-d11db0472b3e.png)
+
+
+
+## Ein eigenen Command Hinzufügen
+
+Ein Command ist wie Folgt aufgebaut:
+```
+@client.tree.command()
+async def command(interaction: Interaction):
+    """ Infos zum Command """
+    await interaction.response.send_message(content=f"Antwort des Bots", ephemeral=True)
+```
+-Hier an der stelle __"command"__ gibt man an, welchen kommand man in DC eingeben soll, um etwas aufzurufen.
+
+```async def command(interaction: Interaction):```
+
+-Hier an der stelle __"Infos zum Command"__ gibt man an, welchen kommand man in DC eingeben soll, um etwas aufzurufen.
+
+```""" Infos zum Command """```
+
+![Opera Momentaufnahme_2023-05-08_220454_discord com](https://user-images.githubusercontent.com/98546933/236922900-1a213128-c3a6-402f-abce-fe21e1327fed.png)
+
+
+-Hier an der stelle __"Antwort des Bots"__ gibt man an, was der Bot antworten soll, wenn man ihn einen Command sendet. Wenn man die antwort über mehrere zeilen schreiben will, muss man ```\n``` verwenden anstat von ENTER. Bei der antwort, kann mit Formatieren von Text gearbeitet werden. (https://support.discord.com/hc/de/articles/210298617-Markdown-Text-101-Chat-Formatierung-Fett-Kursiv-Unterstrichen-)
+
+-Hier an der stelle __"ephemeral=True"__ gibt man an, ob die Nachricht nur von der Person, die den Command gesendet hat```True```, oder von allen gesehen werden soll```False```.
+
+```await interaction.response.send_message(content=f"Antwort des Bots", ephemeral=True)```
+
 
 # Rest kommt bald, bitte habe etwas gedult, oder tüftle selber etwas mit dem Bot herum.
