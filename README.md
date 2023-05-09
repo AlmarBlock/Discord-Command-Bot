@@ -105,4 +105,4 @@ async def command(interaction: Interaction):
 
 Wenn du weitere Funktionen wie Embeds verwenden willst schaue dir DieDukumentation von dicord.py an. (https://discordpy.readthedocs.io/en/latest/index.html)
 
-Bei Fragen bitte unter 
+Bei Fragen öffne bitte ein Issues (https://github.com/AlmarBlock/Discord-Command-Bot/issues)
