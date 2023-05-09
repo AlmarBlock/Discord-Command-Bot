@@ -63,11 +63,13 @@ Alle optionen setzen vorausgesetz, dass du im richtigen Ordner bist. Um zum Orde
 
 ## Den Bot auf den Server bekommen
 Nun wo der Bot gestartet ist, musst du den Bot-Tocken von vorhin per Rechtsklick im Terminal einfügen. Wenn alles richtig gelaufen ist, sollte der Botnach ein paar sekunden ein Link im Terminal augeben. Diesen musst du dir Kopiern, indem du in einfach mit der Maus auswählst. Anschlißend, gibst du ihn in deinem Browser ein. Dort musst du den Server auswählen, wo der Bot drauf Joinen soll.
-![Opera Momentaufnahme_2023-05-07_221244_discord com](https://user-images.githubusercontent.com/98546933/236700609-664a8180-1804-4e77-b5c6-c4c5b8849d2e.png)
+![Opera Momentaufnahme_2023-05-07_221244_discord com](https://github.com/AlmarBlock/Discord-Command-Bot/assets/98546933/b032482a-23fd-4b21-8f3c-67d4261d899c)
+
 
 Und dan auf __"Autorisieren"__ klicken.
 
-![Opera Momentaufnahme_2023-05-08_213358_discord com](https://user-images.githubusercontent.com/98546933/236917157-99c67d3f-9cfc-4d47-ae54-40dba7198454.png)
+![Opera Momentaufnahme_2023-05-08_213358_discord com](https://github.com/AlmarBlock/Discord-Command-Bot/assets/98546933/1a0b9ca1-b738-496d-be53-0289d23ded6a)
+
 
 Nun ist der Bot auf deinem Server, und du kannst mit ```/test``` testen ob der Bot funktionirt.
 
@@ -103,4 +105,4 @@ async def command(interaction: Interaction):
 
 Wenn du weitere Funktionen wie Embeds verwenden willst schaue dir DieDukumentation von dicord.py an. (https://discordpy.readthedocs.io/en/latest/index.html)
 
-# Rest kommt bald, bitte habe etwas gedult, oder tüftle selber etwas mit dem Bot herum.
+Bei Fragen bitte unter 
