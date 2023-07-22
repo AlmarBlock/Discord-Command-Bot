@@ -119,16 +119,16 @@ async def hallo(interaction: Interaction):
     await interaction.response.send_message(content=f"Hi **{interaction.user}**", ephemeral=True)
 
 @client.tree.command()
-async def aiden330(interaction: Interaction):
-    """ Infos über Aiden330 """
+async def UserNameHier(interaction: Interaction):
+    """ Infos über UserNameHier """
     # Then responds in the channel with this message
-    await interaction.response.send_message(content=f"**Aiden330** mag __Züge__!!!")
+    await interaction.response.send_message(content=f"**UserNameHier** mag __Züge__!!!")
 
 @client.tree.command()
 async def info(interaction: Interaction):
     """ Infos, Infos, Infos """
     # Then responds in the channel with this message
-    await interaction.response.send_message(content=f"**__Infos__**\n-Die Regeln sind unter <#1037039022398242816> zu finden.\n-Bei Problem/Feedback melde dich unter: <#1037377976825819207>\n__-Wir hoffen dir gefällt dieser Discord.__", ephemeral=True)
+    await interaction.response.send_message(content=f"**__Infos__**\n-Die Regeln sind unter <#ChannelIDHier> zu finden.\n-Bei Problem/Feedback melde dich unter: <#ChannelIDHier>\n__-Wir hoffen dir gefällt dieser Discord.__", ephemeral=True)
 
 @client.tree.command()
 async def test(interaction: Interaction):
@@ -137,10 +137,10 @@ async def test(interaction: Interaction):
     await interaction.response.send_message(content=f"**Test**", ephemeral=True)
 
 @client.tree.command()
-async def aiden300(interaction: Interaction):
-    """ Infos über Aiden300 """
+async def UserNameHier(interaction: Interaction):
+    """ Infos über UserNameHier """
     # Then responds in the channel with this message
-    await interaction.response.send_message(content=f"**<@939194515858812988>** mag Züge zum Frühstück!")
+    await interaction.response.send_message(content=f"**<@UserIDHier>** mag Züge zum Frühstück!")
 
 @client.tree.command()
 async def me(interaction: Interaction):
@@ -164,13 +164,13 @@ async def würfeln(interaction: Interaction):
 async def commands(interaction: Interaction):
     """ Liste der verfügbaren Commands """
     # Then responds in the channel with this message
-    await interaction.response.send_message(content=f"Dies ist die Liste aller verfügbaren Commands.\n\n```/aiden300\n/aiden330\n/hallo\n/info\n/ip\n/me\n/test\n/würfeln```\n\nSolltest du finden, dass es noch mehr sein sollen, melde dich unter <#1037377976825819207>!", ephemeral=True)
+    await interaction.response.send_message(content=f"Dies ist die Liste aller verfügbaren Commands.\n\n```/hallo\n/info\n/ip\n/me\n/test\n/würfeln```\n\nSolltest du finden, dass es noch mehr sein sollen, melde dich unter <#ChannelIDHier>!", ephemeral=True)
 
 @client.tree.command()
 async def help(interaction: Interaction):
     """ Liste der verfügbaren Commands """
     # Then responds in the channel with this message
-    await interaction.response.send_message(content=f"Dies ist die Liste aller verfügbaren Commands.\n\n```/aiden300\n/aiden330\n/hallo\n/info\n/ip\n/me\n/test\n/würfeln```\n\nSolltest du finden, dass es noch mehr sein sollen, melde dich unter <#1037377976825819207>!", ephemeral=True)
+    await interaction.response.send_message(content=f"Dies ist die Liste aller verfügbaren Commands.\n\n```/hallo\n/info\n/ip\n/me\n/test\n/würfeln```\n\nSolltest du finden, dass es noch mehr sein sollen, melde dich unter <#ChennelIDHier>!", ephemeral=True)
 
 
 
